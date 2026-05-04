@@ -20,15 +20,7 @@ def abrir_menu():
     frame_botones = ctk.CTkFrame(ventana)
     frame_botones.pack(fill="both", expand=True, padx=10, pady=10)
 
-    etiqueta_titulo = ctk.CTkLabel(ventana, text="Consultas con interfaz gráfica", font=ctk.CTkFont(size=24, weight="bold"))
-    etiqueta_titulo.pack(pady=10)
-
-    etiqueta_instruccion = ctk.CTkLabel(
-        ventana,
-        text="Presiona un botón para ver la gráfica correspondiente.",
-        font=ctk.CTkFont(size=14),
     )
-    etiqueta_instruccion.pack(pady=10)
 
     def consulta_1():
         print("\nConsulta 1: Top 10 ciudades por cantidad")
